@@ -41,7 +41,7 @@ int main (){
     string textousuario;
 
     cout<<"\ningresa el string: "; cin.ignore(); cin>>textousuario;
-    //getline(cin,textousuario);
+    /*getline(cin,textousuario);*/
 
     cout<<"\nla longuitud del string es "<<longitud(textousuario)<<endl;
 
@@ -55,4 +55,5 @@ int main (){
 
 
     return 0;
+
 }
