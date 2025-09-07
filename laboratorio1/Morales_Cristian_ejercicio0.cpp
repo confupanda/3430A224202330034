@@ -12,9 +12,9 @@ struct Paciente {
 
 int main() {
     // Ejemplos de pacientes
-    Paciente p1 = {"Ana Torres", 25, 60.5, 1.65};
-    Paciente p2 = {"Carlos Díaz", 40, 80.0, 1.75};
-    Paciente p3 = {"María López", 32, 55.3, 1.60};
+    Paciente p1 = {"nicole perez", 25, 60.5, 1.65};
+    Paciente p2 = {"Carlos morales", 40, 80.0, 1.75};
+    Paciente p3 = {"juan diaz", 32, 55.3, 1.60};
 
     // Mostrar información
     cout << "Paciente 1: " << p1.nombre << ", Edad: " << p1.edad 

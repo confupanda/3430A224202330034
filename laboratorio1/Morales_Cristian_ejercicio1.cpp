@@ -11,9 +11,9 @@ struct Paciente {
 
 int main() {
     Paciente pacientes[3] = {
-        {"Ana Torres", 25, 60.5, 1.65},
-        {"Carlos Díaz", 40, 80.0, 1.75},
-        {"María López", 32, 55.3, 1.60}
+        {"nicole perez", 25, 60.5, 1.65},
+        {"Cristian morales", 40, 80.0, 1.75},
+        {"juan alcachoifa", 32, 55.3, 1.60}
     };
 
     for (int i = 0; i < 3; i++) {

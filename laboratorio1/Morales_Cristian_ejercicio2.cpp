@@ -39,9 +39,9 @@ int main() {
     Paciente* lista = nullptr;
 
     // Agregar pacientes
-    agregarPaciente(lista, "Ana Torres", 25, 60.5, 1.65);
-    agregarPaciente(lista, "Carlos Díaz", 40, 80.0, 1.75);
-    agregarPaciente(lista, "María López", 32, 55.3, 1.60);
+    agregarPaciente(lista, "Nicole perez", 25, 60.5, 1.65);
+    agregarPaciente(lista, "Cristian morales", 40, 80.0, 1.75);
+    agregarPaciente(lista, "juan alcachofa", 32, 55.3, 1.60);
 
     cout << "Lista de pacientes:\n";
     imprimirPacientes(lista);

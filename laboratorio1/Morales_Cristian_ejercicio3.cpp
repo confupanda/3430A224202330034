@@ -53,9 +53,9 @@ void eliminarLista(Paciente*& cabeza) {
 int main() {
     Paciente* lista = nullptr;
 
-    agregarPaciente(lista, "Ana Torres", 25, 60.5, 1.65);
-    agregarPaciente(lista, "Carlos Díaz", 40, 80.0, 1.75);
-    agregarPaciente(lista, "María López", 32, 55.3, 1.60);
+    agregarPaciente(lista, "nicole perez", 25, 60.5, 1.65);
+    agregarPaciente(lista, "Cristian morales", 40, 80.0, 1.75);
+    agregarPaciente(lista, "juan alcachofa", 32, 55.3, 1.60);
 
     cout << "Pacientes:\n";
     imprimirPacientes(lista);
