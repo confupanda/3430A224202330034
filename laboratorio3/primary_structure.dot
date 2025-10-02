@@ -1,0 +1,18 @@
+digraph G {
+rankdir=LR;
+node [style=filled, fillcolor=yellow];
+CYS874 -> LEU875;
+LEU875 -> ALA876;
+ALA876 -> LYS877;
+LYS877 -> ASN878;
+ASN878 -> PRO879;
+PRO879 -> ILE880;
+ILE880 -> GLY881;
+GLY881 -> ASN882;
+ASN882 -> THR883;
+THR883 -> GLY884;
+GLY884 -> VAL885;
+VAL885 -> LYS886;
+LYS886 -> PHE887;
+PHE887 -> LEU888;
+}
