@@ -1,0 +1,25 @@
+digraph G {
+  graph [rankdir=LR]
+  node [style=filled fillcolor=yellow]
+  A;
+  B;
+  C;
+  D;
+  E;
+  A -> B [label=2];
+  A -> C [label=2];
+  A -> D [label=3];
+  A -> E [label=4];
+  B -> C [label=3];
+  B -> D [label=4];
+  B -> E [label=5];
+  C -> B [label=2];
+  C -> D [label=6];
+  C -> E [label=8];
+  D -> B [label=2];
+  D -> C [label=4];
+  D -> E [label=7];
+  E -> B [label=2];
+  E -> C [label=3];
+  E -> D [label=4];
+}

@@ -210,7 +210,7 @@ void imprimir_grafo(const vector<vector<int>>& M, const vector<char>& V, const s
     int n = (int)M.size();
     FILE *fp = fopen(fname.c_str(), "w");
     if (!fp) {
-        cerr << "No se pudo crear " << fname << "\n";
+        cerr << "no se pudo crear " << fname << "\n";
         return;
     }
     fprintf(fp, "digraph G {\n");
@@ -231,17 +231,17 @@ void imprimir_grafo(const vector<vector<int>>& M, const vector<char>& V, const s
     // intenta generar png (si dot existe)
     int rc = system("dot -Tpng -ografo.png grafo.txt 2>/dev/null");
     if (rc == 0) {
-        cout << "Se generó 'grafo.png' a partir de 'grafo.txt'.\n";
+        cout << "se generó 'grafo.png' a partir de 'grafo.txt'.\n";
         // abrir con eog (si existe) en background (no crítico)
         system("which eog >/dev/null 2>&1 && eog grafo.png &");
     } else {
-        cout << "Se creó 'grafo.txt'. Para generar la imagen ejecute: dot -Tpng -ografo.png grafo.txt\n";
+        cout << "se creó 'grafo.txt'. para generar la imagen ejecute: dot -Tpng -ografo.png grafo.txt\n";
     }
 }
 
 int main(int argc, char** argv) {
-    ios::sync_with_stdio(false);
-    cin.tie(nullptr);
+    //ios::sync_with_stdio(false);
+    //cin.tie(nullptr);
 
     if (argc < 2) {
         cerr << "Uso: " << argv[0] << " N   (N entero > 2)\n";
@@ -263,24 +263,24 @@ int main(int argc, char** argv) {
 
     // pedir origen
     int origen_input;
-    cout << "Ingrese vértice origen (1.." << n << "): ";
+    cout << "ingrese vértice origen (1.." << n << "): ";
     if (!(cin >> origen_input)) {
-        cerr << "Error leyendo origen.\n";
+        cerr << "error leyendo origen.\n";
         return EXIT_FAILURE;
     }
     if (origen_input < 1 || origen_input > n) {
-        cerr << "Origen fuera de rango.\n";
+        cerr << "origen fuera de rango.\n";
         return EXIT_FAILURE;
     }
     int origen_index = origen_input - 1;
 
     // leer matriz
     vector<vector<int>> M(n, vector<int>(n));
-    cout << "Ingrese la matriz " << n << "x" << n << " (use -1 para no arista). Filas separadas por enter, valores por espacios:\n";
+    cout << "ingrese la matriz " << n << "x" << n << " (use -1 para no arista). Filas separadas por enter, valores por espacios:\n";
     for (int i = 0; i < n; ++i) {
         for (int j = 0; j < n; ++j) {
             if (!(cin >> M[i][j])) {
-                cerr << "Error: lectura incompleta de la matriz.\n";
+                cerr << "error: lectura incompleta de la matriz.\n";
                 return EXIT_FAILURE;
             }
         }
@@ -310,7 +310,8 @@ int main(int argc, char** argv) {
     // generar grafo
     imprimir_grafo(M, V, "grafo.txt");
 
-    cout << "\n--- FIN DEL ALGORITMO ---\n";
+    
+
 
     return EXIT_SUCCESS;
 }
