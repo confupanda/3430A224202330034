@@ -240,8 +240,7 @@ void imprimir_grafo(const vector<vector<int>>& M, const vector<char>& V, const s
 }
 
 int main(int argc, char** argv) {
-    //ios::sync_with_stdio(false);
-    //cin.tie(nullptr);
+   
 
     if (argc < 2) {
         cerr << "Uso: " << argv[0] << " N   (N entero > 2)\n";
