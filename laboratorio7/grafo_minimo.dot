@@ -1,0 +1,5 @@
+graph G {
+  node [style=filled fillcolor="#00ff005f"];
+  hola -- copete [label=1];
+  hola -- piscola [label=2];
+}
