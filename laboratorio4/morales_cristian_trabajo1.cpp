@@ -243,7 +243,7 @@ void pausa() {
 
 void mostrarMenu() {
     cout << "\n\n";
-    cout << "     ÁRBOL BINARIO DE BÚSQUEDA\n";
+    cout << "     ARBOL BINARIO DE BÚSQUEDA\n";
     cout << "\n";
     cout << "1) Insertar número\n";
     cout << "2) Eliminar número\n";
