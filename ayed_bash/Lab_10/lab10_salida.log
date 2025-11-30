@@ -1,0 +1,26 @@
+inicio del script lab 10
+fecha: dom 30 nov 2025 00:56:50 -03
+
+1) manejo de carpetas
+creando carpeta de salida: /home/cristian/Escritorio/Codigos de c++ y aprendiendo weas/3430A224202330034/ayed_bash/Lab_10/Lab10_salida
+
+2) listado de archivos
+
+lista simple:
+ACE2_A.pdb
+GFP_A.pdb
+HEM_A.pdb
+lab10_automate.sh
+Lab10_salida
+lab10_salida.log
+uniprot_info
+
+archivos *.txt:
+
+archivos que comienzan con G o g:
+GFP_A.pdb
+
+archivos que contienen ' A':
+ninguno
+
+entrando en uniprot_info:

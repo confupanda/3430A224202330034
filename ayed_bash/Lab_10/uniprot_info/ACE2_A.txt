@@ -1,0 +1,3 @@
+proteína: ACE2_A
+archivo pdb: ACE2_A.pdb
+origen: laboratorio10

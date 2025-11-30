@@ -1,0 +1,3 @@
+proteína: HEM_A
+archivo pdb: HEM_A.pdb
+origen: laboratorio10
