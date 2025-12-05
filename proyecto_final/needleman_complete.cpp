@@ -1,5 +1,18 @@
 // needleman_complete.cpp
-// compilar: g++ -std=c++17 -O2 -o needleman_complete needleman_complete.cpp
+// compilar: g++ -std=c++17 -O2 -o needleman_complete needleman_complete.cpp//
+//comparar la hemoglobina con la insulina 
+// ./needleman_complete -c gene.fna gene2.fna
+
+//comparar dos secuencias dentro de gene2.fna
+// ./needleman_complete -w gene2.fna
+
+//comparar dos secuencias dentro de gene.fna
+//    ./needleman_complete -w gene.fna
+
+//comparación simple (sin matriz csv, con gap por defecto)
+//    ./needleman_complete -c gene.fna gene2.fna
+
+
 
 #include <algorithm>   // para max, reverse, sort
 #include <cctype>      // para isspace, toupper
