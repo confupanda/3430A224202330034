@@ -394,6 +394,13 @@ int main(int argc, char** argv) {
         }
     }
 
+    // evitar gaps positivos
+    if (gap > 0) {
+    cerr << "error: el gap no puede ser positivo (valor dado: " << gap << ")\n";
+    return 1;
+    }
+
+
     cout << "leyendo cabeceras...\n";
 
     vector<string> cab1 = obtenerCabeceras(archivo1);
