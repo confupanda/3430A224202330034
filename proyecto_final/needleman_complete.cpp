@@ -329,6 +329,28 @@ void imprimirMatriz(const vector<vector<int>> &mat) {
         cout << "\n";
     }
 }
+double calcularPorcentajeIdentidad(const string &a1, const string &a2) {
+    int iguales = 0;
+    int total = 0;
+
+    for (size_t i = 0; i < a1.size(); i++) {
+        char c1 = a1[i];
+        char c2 = a2[i];
+
+        // contamos solo columnas válidas (al menos un nucleótido)
+        if (c1 != '-' || c2 != '-') {
+            total++;
+            if (c1 == c2 && c1 != '-') {
+                iguales++;
+            }
+        }
+    }
+
+    if (total == 0) return 0.0;
+
+    return (100.0 * iguales) / total;
+}
+
 
 int main(int argc, char** argv) {
 
@@ -446,6 +468,11 @@ int main(int argc, char** argv) {
     );
 
     cout << "puntaje optimo = " << R.puntajeFinal << "\n";
+
+    double identidad = calcularPorcentajeIdentidad(R.alineada1, R.alineada2);
+    cout << fixed << setprecision(2);
+    cout << "porcentaje de identidad = " << identidad << "%\n";
+
 
     guardarAlineamientoTXT(R.alineada1, R.alineada2);
 
