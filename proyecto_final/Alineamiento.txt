@@ -1,114 +1,186 @@
 alineamiento global (needleman-wunsch)
 
 secuencia 1: ACATTTGCTTCTGACACAACTGTGTTCACTAGCAACCTCAAACAGACACCATGGTGCATC
-               |   ||  ||  ||  || | |    || || |  ||| | |||  ||||   |||  
-secuencia 2: --A---GC-CCT-CCAGGACAG-G----CT-GC-A--TCAGA-AGAGGCCATCAAGCA--
+                                                                         
+secuencia 2: ------------------------------------------------------------
 
 secuencia 1: TGACTCCTGAGGAGAAGTCTGCCGTTACTGCCCTGTGGGGCAAGGTGAACGTGGATGAAG
-              |  | |||     |||   ||| || | | |  |||||   ||| |  |  || ||  |
-secuencia 2: -G-GT-CTG-TTCCAAG--GGCCTTTGC-GTCAGGTGGGCTCAGG-GTTCCAGGGTG--G
+                                                                         
+secuencia 2: ------------------------------------------------------------
 
-secuencia 1: TTGGTGGTGAGGCCCTGGGCAGGTTGGTATCAAGG-TTACAAGACAGGTTTAAGGAGACC
-              |||     ||||||    ||| |  | | || ||   ||  | | ||  |   || | |
-secuencia 2: CTGGACCCCAGGCCC----CAGCTCTGCAGCAGGGAGGACGTGGCTGGGCTCGTGA-AGC
+secuencia 1: TTGGTGGTGAGGCCCTGGGCAGGTTGGTATCAAGGTTACAAGACAGGTTTAAGGAGACCA
+                                                                         
+secuencia 2: ------------------------------------------------------------
 
-secuencia 1: AATAGAAACTG-GGCATGTGGAGAC-AGAGAAGACTCTTGGGTTTCTGATAGGCACTGAC
-             |   |    || | |  | ||   | ||  | | | | |||  ||| |   | | | | |
-secuencia 2: ATGTGGGGGTGAGCCCAGGGGCCCCAAGGCAGGGCACCTGGCCTTCAGCCTGCCTCAG-C
+secuencia 1: ATAGAAACTGGGCATGTGGAGACAGAGAAGACTCTTGGGTTTCTGATAGGCACTGACTCT
+                                                                         
+secuencia 2: ------------------------------------------------------------
 
-secuencia 1: TCTCTCTGCCT-ATTGGTCTATTTTCC--CACCCTTAGGCTGCTGGTGGTCTAC-CCT-T
-              ||  ||| ||    | || | | |||  |  || | |||  || ||||  | | |||  
-secuencia 2: CCTGCCTGTCTCCCAGATC-ACTGTCCTTCTGCCAT-GGC-CCT-GTGG-ATGCGCCTCC
+secuencia 1: CTCTGCCTATTGGTCTATTTTCCCACCCTTAGGCTGCTGGTGGTCTACCCTTGGACCCAG
+                                                                         
+secuencia 2: ------------------------------------------------------------
 
-secuencia 1: GGACCCAG-AGGTTCT-TTGAGTCCTTTGGGGATCTGTCCACTCCTGATGCTGTTATG-G
-              | ||| |  ||  ||  || | ||| |||||| ||| || |  | |  ||  || ||  
-secuencia 2: TGCCCCTGCTGGCGCTGCTG-GCCCTCTGGGGACCTGACC-CAGCCGCAGCCTTTGTGAA
+secuencia 1: AGGTTCTTTGAGTCCTTTGGGGATCTGTCCACTCCTGATGCTGTTATGGGCAACCCTAAG
+                                                                         
+secuencia 2: ------------------------------------------------------------
 
-secuencia 1: GCAAC-CCTAAGGTGAAGGCTCATGGCAAGAAAGTGCTCGGTGCCTTTAGTGATGGCCTG
-              |||| |||   |||  ||||||   |  |     ||||  | ||  ||||| | | | |
-secuencia 2: CCAACACCT---GTG-CGGCTCACACCTGGTGGAAGCTCTCTACC--TAGTG-T-G-C-G
+secuencia 1: GTGAAGGCTCATGGCAAGAAAGTGCTCGGTGCCTTTAGTGATGGCCTGGCTCACCTGGAC
+                                                                         
+secuencia 2: ------------------------------------------------------------
 
-secuencia 1: GCTCACCTGGACAACCTCAAGGGCACCTTTGCCACACTGAGTGAGCTGCACTGTGACAAG
-             |       ||  ||   | | |||  |||   |||||  |  || | || | | |   ||
-secuencia 2: G-------GG--AA---CGA-GGCTTCTTCTACACACCCA-AGACCCGC-C-G-G--GAG
+secuencia 1: AACCTCAAGGGCACCTTTGCCACACTGAGTGAGCTGCACTGTGACAAGCTGCACGTGGAT
+                                                                         
+secuencia 2: ------------------------------------------------------------
 
-secuencia 1: CTGCACGTGGATCCTGAGAACTTCAGGGTGAGTCTATGGGACGCTTGATGTTTTCTTTCC
-               ||| | ||| |||  |     ||||||||| | |   | |  ||| ||    ||  ||
-secuencia 2: --GCA-GAGGA-CCT--G-----CAGGGTGAG-CCAACCGCCCATTGCTG-CCCCTGGCC
+secuencia 1: CCTGAGAACTTCAGGGTGAGTCTATGGGACGCTTGATGTTTTCTTTCCCCTTCTTTTCTA
+                                                                         
+secuencia 2: ------------------------------------------------------------
 
-secuencia 1: CCTTCTTTTCTATGGTTAAGTTCATG-TCATAGGAAGGGGATAAGTAACAGGGTACAGTT
-              |  |    | |  |   |   | || || | ||  |     |   | || ||  |||  
-secuencia 2: GC--C---CCCA--G-CCACCCCCTGCTCCT-GG-CGCTCCCACCCAGCATGG-GCAG--
+secuencia 1: TGGTTAAGTTCATGTCATAGGAAGGGGATAAGTAACAGGGTACAGTTTAGAATGGGAAAC
+                                                                         
+secuencia 2: ------------------------------------------------------------
 
-secuencia 1: TAGAATGGGAAACAGACGAATGATTGCATCAGTGTGGAAGTCTCAGGATCGTTTTAGTTT
-              | |  ||| |  || |     |   || ||| | ||  |  ||||| | |    | |||
-secuencia 2: -A-AGGGGGCAGGAGGC-TGCCA-CCCAGCAG-G-GG--G--TCAGG-T-G---CACTTT
+secuencia 1: AGACGAATGATTGCATCAGTGTGGAAGTCTCAGGATCGTTTTAGTTTCTTTTATTTGCTG
+                                                                         
+secuencia 2: ------------------------------------------------------------
 
-secuencia 1: CTTTTATTTGCTGTTCATAACAATTGTTTTCTTTTGTTTAATTCTTGCTTTCTTTTTTTT
-              ||| |   |  |||| |  |  |||   ||   |   |||     | |  |    |   
-secuencia 2: -TTTAAAAAGAAGTTC-T--C--TTG--GTCACGT-CCTAA---AAG-TGACCAGCTCCC
+secuencia 1: TTCATAACAATTGTTTTCTTTTGTTTAATTCTTGCTTTCTTTTTTTTTCTTCTCCGCAAT
+                                                                         
+secuencia 2: ------------------------------------------------------------
 
-secuencia 1: TCTTCTCCGCAATTTTTACTATTATACTTAATGCCTTAACATTGTGTATAACAAAAGGAA
-             |  |  || | |    | | |  || | | | |||| |  |  |||| |  |    ||  
-secuencia 2: T-GTGGCC-C-A---GT-C-AGAAT-C-TCA-GCCTGAGGACGGTGT-TGGC-TTCGG--
+secuencia 1: TTTTACTATTATACTTAATGCCTTAACATTGTGTATAACAAAAGGAAATATCTCTGAGAT
+                                                                         
+secuencia 2: ------------------------------------------------------------
 
-secuencia 1: ATATCTCTGAGATACATTAAGTAACTTAAAAAAAAACTTTAC-ACAGTC-TGCCTAGTAC
-               | | | |||||||| | || |   |    |    | |  |  || ||   |||   ||
-secuencia 2: -CAGCCCCGAGATACA-TCAG-AGGGTGGGCACGCTCCTCCCTCCACTCGCCCCTCAAAC
+secuencia 1: ACATTAAGTAACTTAAAAAAAAACTTTACACAGTCTGCCTAGTACATTACTATTTGGAAT
+                                                                         
+secuencia 2: ------------------------------------------------------------
 
-secuencia 1: ATTACTATTTGGAATATATGTGTGCTTATTTGCATATTCATAATCTCCCTACTTTA-TTT
-             |  |      | |    || | | |  |    ||| || || | |  |  | |  | | |
-secuencia 2: A-AATGCCCCGCAGCCCATTTCT-C-CACCCTCAT-TTGATGA-CCGCAGATTCAAGTGT
+secuencia 1: ATATGTGTGCTTATTTGCATATTCATAATCTCCCTACTTTATTTTCTTTTATTTTTAATT
+                                                                         
+secuencia 2: ------------------------------------------------------------
 
-secuencia 1: TCTTTTATTTTTAATTGATACATAATCATTATACATATTTATGGGTTAAAGTGTAATGTT
-             | | |||   | || |  |   | | |      || |    ||    |   ||   ||  
-secuencia 2: TTTGTTA-AGTAAAGTCCTGGGTGACCTGGGGTCACA-GGGTGCCCCACGCTG-CCTGCC
+secuencia 1: GATACATAATCATTATACATATTTATGGGTTAAAGTGTAATGTTTTAATATGTGTACACA
+                                                                         
+secuencia 2: ------------------------------------------------------------
 
-secuencia 1: TTAATATGTGTA-CACATATTGACCAAATCAGGGTAATTTTGCATTTGTAATTTTAAAAA
-             |      |   | | |||   | ||  |  ||||      ||| |   | | |     | 
-secuencia 2: TCTGGGCGAACACCCCATCACGCCCGGAGGAGGGCGTGGCTGCCTGCCTGAGTGGGCCAG
+secuencia 1: TATTGACCAAATCAGGGTAATTTTGCATTTGTAATTTTAAAAAATGCTTTCTTCTTTTAA
+                                                                         
+secuencia 2: ------------------------------------------------------------
 
-secuencia 1: ATGCTTTCTTCTTTTAATATACTTTTTTGTTTATCTTAT-TTCTAATACTTTCCCTAATC
-             |  |   |  || |    |  | |    |    ||  ||  || |  |   |    ||  
-secuencia 2: A--C---C-CCTGTCGCCAGGCCTCACGGCAGCTC-CATAGTC-AGGA-GATGGGGAAGA
+secuencia 1: TATACTTTTTTGTTTATCTTATTTCTAATACTTTCCCTAATCTCTTTCTTTCAGGGCAAT
+                                                                         
+secuencia 2: ------------------------------------------------------------
 
-secuencia 1: TCTTTCTTTCAGGGCAATAATGATACAATGTATCATGCCTCTTTGCACCATTCTAAAGAA
-             |  |     || |||  |   |  | || ||| | ||      | ||||  | |  ||  
-secuencia 2: TGCTGGGGACA-GGCCCT--GGGGAGAA-GTA-C-TG---GGAT-CACC--TGTTCAGGC
+secuencia 1: AATGATACAATGTATCATGCCTCTTTGCACCATTCTAAAGAATAACAGTGATAATTTCTG
+                                                                         
+secuencia 2: ------------------------------------------------------------
 
-secuencia 1: TAACAGTGATAATTTCTGGGTTAAGGCAATAGCAATATCTCTG-CATATAAATATTTCTG
-             |  || || | |   |||      |||    | |  |  |  | ||| |     ||   |
-secuencia 2: TCCCACTG-TGA-CGCTGCCCCGGGGCGGGGGAAGGAGGTGGGACATGTGGGCGTTGGGG
+secuencia 1: GGTTAAGGCAATAGCAATATCTCTGCATATAAATATTTCTGCATATAAATTGTAACTGAT
+                                                                         
+secuencia 2: ------------------------------------------------------------
 
-secuencia 1: CATATAAATTGTAACTGATGTAAGAGGTTTCATATTGCTAATAGCAGCTACAATCCAGCT
-             | | ||  |    ||  | ||  | |||  |   |  ||  ||  | ||    |||||  
-secuencia 2: CCTGTAGGTCCACACCCA-GTGTG-GGTGAC-CCTCCCT-CTA--ACCT-GGGTCCAG--
+secuencia 1: GTAAGAGGTTTCATATTGCTAATAGCAGCTACAATCCAGCTACCATTCTGCTTTTATTTT
+                                                                         
+secuencia 2: ------------------------------------------------------------
 
-secuencia 1: ACCATTCTGCTTTTATTTTATGGTTGGGATAAGGCTGGATTA-TTCT-GAGTCCAAGCTA
-              ||   | || |  |    |||| ||||  |  || |   ||   || | |  || ||  
-secuencia 2: -CC---CGGC-TGGA---GATGGGTGGG--AGTGC-GACCTAGGGCTGGCGGGCAGGC-G
+secuencia 1: ATGGTTGGGATAAGGCTGGATTATTCTGAGTCCAAGCTAGGCCCTT-----T--------
+                                                                |        
+secuencia 2: ----------------------------------------------AGCCCTCCAGGACA
 
-secuencia 1: GGCCCTTTTGCT-AATCA-TGT-TCATACCTCT-T--ATCTTCCTC-CCACAGCTCCTGG
-             ||| || |  ||   | | ||| || | ||| | |   ||| |||| || | | |||  |
-secuencia 2: GGCACTGTGTCTCCCTGACTGTGTCCT-CCTGTGTCCCTCTGCCTCGCCGCTGTTCC--G
+secuencia 1: ---TGC-T------A----AT----CA-------T------G----T---TCA-------
+                ||| |      |    ||    ||       |      |    |   |||       
+secuencia 2: GGCTGCATCAGAAGAGGCCATCAAGCAGGTCTGTTCCAAGGGCCTTTGCGTCAGGTGGGC
 
-secuencia 1: GCAACGTGCTGGTCTGTGTGCTGGCCCATCACTTTGGCAAAGAATTCA-CCCCACCAGTG
-             | |||   || | || || || ||| | || |  |||||  |    ||     | | | |
-secuencia 2: G-AAC---CT-G-CTCTGCGC-GGCACGTC-C--TGGCAGTG-GGGCAGGTGGAGCTGGG
+secuencia 1: T----A---C-------CT----------------CT-T------------A--------
+             |    |   |       ||                || |            |        
+secuencia 2: TCAGGATTCCAGGGTGGCTGGACCCCAGGCCCCAGCTCTGCAGCAGGGAGGACGTGGCTG
 
-secuencia 1: CAGGCTGCCTATCAGAAAGTGGTGGCTGGTGTGGCTAATGCCC-TGGCCC-ACAAGTATC
-             | ||  |||   | |   |||  |||  |  | ||  | |||| ||||||   | |  ||
-secuencia 2: C-GGGGGCC---CTG---GTGCAGGC-AGCCT-GC--A-GCCCTTGGCCCTGGAGGGGTC
+secuencia 1: ------T----C---T-----T--------------------------CCT--CC--CA-
+                   |    |   |     |                          |||  ||  || 
+secuencia 2: GGCTCGTGAAGCATGTGGGGGTGAGCCCAGGGGCCCCAAGGCAGGGCACCTGGCCTTCAG
 
-secuencia 1: ACT-AAGCTCGC-TTTC-TTGCTGTCCAAT-TTCTATTA-AAGGTTC-CTTTGTTCCCTA
-              ||  ||   || |  | |||  |  ||||  | ||  |  |  | | |  | | ||   
-secuencia 2: CCTGCAG-AAGCGTGGCATTGTGGAACAATGCTGTACCAGCATCTGCTCCCTCTACCAGC
+secuencia 1: -------CAG--CT--C---CT----G------G-------G-CA-----------A---
+                    |||  ||  |   ||    |      |       | ||           |   
+secuencia 2: CCTGCCTCAGCCCTGCCTGTCTCCCAGATCACTGTCCTTCTGCCATGGCCCTGTGGATGC
 
-secuencia 1: AGTCCAACTACT-AAACTGGGGGATATTATGAAGG--G-CCTTGAGCATCTGGATTCTGC
-              |   |||||||  |||| |  |  |   || |||  | ||   | |  | |  | ||||
-secuencia 2: TGGAGAACTACTGCAACTAGACG-CAGCCTGCAGGCAGCCCCACACCCGCCGCCTCCTGC
+secuencia 1: --------------------C-G-T-G----CT--GG---T--------------C----
+                                 | | | |    ||  ||   |              |    
+secuencia 2: GCCTCCTGCCCCTGCTGGCGCTGCTGGCCCTCTGGGGACCTGACCCAGCCGCAGCCTTTG
 
-secuencia 1: -CTAATAAAAAACATTTATTTTCATTG---CA-A
-              |  | | | |     ||    | |||   ||  
-secuencia 2: ACCGAGAGAGATGGAATAAAGCCCTTGAACCAGC
+secuencia 1: TG----------TGT---G-------C---T-G--G----C--CC-A---T--------C
+             ||          |||   |       |   | |  |    |  || |   |        |
+secuencia 2: TGAACCAACACCTGTGCGGCTCACACCTGGTGGAAGCTCTCTACCTAGTGTGCGGGGAAC
+
+secuencia 1: -A--------CT---------------------------------T------TG-G-CAA
+              |        ||                                 |      || | |||
+secuencia 2: GAGGCTTCTTCTACACACCCAAGACCCGCCGGGAGGCAGAGGACCTGCAGGGTGAGCCAA
+
+secuencia 1: ------A---------------G-----A---A-----------------T---------
+                   |               |     |   |                 |         
+secuencia 2: CTGCCCATTGCTGCCCCTGGCCGCCCCCAGCCACCCCCTGCTCCTGGCGCTCCCACCCAG
+
+secuencia 1: --T-------------C---A------C-CCCA-C-------CA-GTG--C---------
+               |             |   |      | |||| |       || |||  |         
+secuencia 2: CATGGGCAGAAGGGGGCAGGAGGCTGCCACCCAGCAGGGGGTCAGGTGCACTTTTTTAAA
+
+secuencia 1: ----A---------G----G--C------T-----G---CC--T-----A-TCAGAA---
+                 |         |    |  |      |     |   ||  |     | ||||||   
+secuencia 2: AAGAAGTTCTCTTGGTCACGTCCTAAAAGTGACCAGCTCCCTGTGGCCCAGTCAGAATCT
+
+secuencia 1: -AG--T-------G-G-TGGC-T----------G-G-----T------GT------G---
+              ||  |       | | |||| |          | |     |      ||      |   
+secuencia 2: CAGCCTGAGGACGGTGTTGGCTTCGGCAGCCCCGAGATACATCAGAGGGTGGGCACGCTC
+
+secuencia 1: ------------G---CT------AAT--------G-------------CC-C---TG--
+                         |   ||      |||        |             || |   ||  
+secuencia 2: CTCCCTCCACTCGCCCCTCAAACAAATGCCCCGCAGCCCATTTCTCCACCCTCATTTGAT
+
+secuencia 1: G-CC-C--A--C------------AAGT--A-T-C------A-C-----T---A------
+             | || |  |  |            ||||  | | |      | |     |   |      
+secuencia 2: GACCGCAGATTCAAGTGTTTTGTTAAGTAAAGTCCTGGGTGACCTGGGGTCACAGGGTGC
+
+secuencia 1: ---A------------------G-------C-T------C--------GC-T---T---T
+                |                  |       | |      |        || |   |   |
+secuencia 2: CCCACGCTGCCTGCCTCTGGGCGAACACCCCATCACGCCCGGAGGAGGGCGTGGCTGCCT
+
+secuencia 1: --CT---T------G----CTGT--------C-CA----A--T---T--TC------T--
+               ||   |      |    ||||        | ||    |  |   |  ||      |  
+secuencia 2: GCCTGAGTGGGCCAGACCCCTGTCGCCAGGCCTCACGGCAGCTCCATAGTCAGGAGATGG
+
+secuencia 1: -----AT--T----A-A----------AG--G---T----T--CC---T-----T-----
+                  ||  |    | |          ||  |   |    |  ||   |     |     
+secuencia 2: GGAAGATGCTGGGGACAGGCCCTGGGGAGAAGTACTGGGATCACCTGTTCAGGCTCCCAC
+
+secuencia 1: TGT-----T---CC----C------------T-----A-------------------A-G
+             |||     |   ||    |            |     |                   | |
+secuencia 2: TGTGACGCTGCCCCGGGGCGGGGGAAGGAGGTGGGACATGTGGGCGTTGGGGCCTGTAGG
+
+secuencia 1: TCCA-A--C--------T-A--------CTAA---------A------C----------T
+             |||| |  |        | |        ||||         |      |          |
+secuencia 2: TCCACACCCAGTGTGGGTGACCCTCCCTCTAACCTGGGTCCAGCCCGGCTGGAGATGGGT
+
+secuencia 1: -GG-G-G-G----A----T---------------A-------T---T-A-----------
+              || | | |    |    |               |       |   | |           
+secuencia 2: GGGAGTGCGACCTAGGGCTGGCGGGCAGGCGGGCACTGTGTCTCCCTGACTGTGTCCTCC
+
+secuencia 1: ------------------------T---GAA----------G-GGC-C-T--T-G-A---
+                                     |   |||          | ||| | |  | | |   
+secuencia 2: TGTGTCCCTCTGCCTCGCCGCTGTTCCGGAACCTGCTCTGCGCGGCACGTCCTGGCAGTG
+
+secuencia 1: --GC------A--T-----------C---T-------G---G-A----TT----CT----
+               ||      |  |           |   |       |   | |    ||    ||    
+secuencia 2: GGGCAGGTGGAGCTGGGCGGGGGCCCTGGTGCAGGCAGCCTGCAGCCCTTGGCCCTGGAG
+
+secuencia 1: --G--CCT-----A-------A---T--AA-AA------A--A-CA-----------T--
+               |  |||     |       |   |  || ||      |  | ||           |  
+secuencia 2: GGGTCCCTGCAGAAGCGTGGCATTGTGGAACAATGCTGTACCAGCATCTGCTCCCTCTAC
+
+secuencia 1: ----T-------TA-T-----T-----------------------------------T--
+                 |       || |     |                                   |  
+secuencia 2: CAGCTGGAGAACTACTGCAACTAGACGCAGCCCGCAGGCAGCCCCACACCCGCCGCCTCC
+
+secuencia 1: T----C-------AT----T---G--C----A--A--
+             |    |       ||    |   |  |    |  |  
+secuencia 2: TGCACCGAGAGAGATGGAATAAAGCCCTTGAACCAGC
 

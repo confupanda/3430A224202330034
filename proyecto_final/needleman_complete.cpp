@@ -20,8 +20,8 @@ using namespace std;
 
 // CONFIGURACIÓN GENERAL
 
-const int MATCH_DEF = 1;
-const int MISMATCH_DEF = -1;
+const int MATCH_DEF = -2;
+const int MISMATCH_DEF = -3;
 const int GAP_DEF = -2;
 
 // FUNCIONES PARA LEER FASTA
